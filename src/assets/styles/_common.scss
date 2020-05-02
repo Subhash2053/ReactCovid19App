@@ -1,0 +1,50 @@
+:root {
+    --bg: #eff1f3;
+    --blue: #516be8;
+    --btnColor: #fff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background: #eff1f3;
+  }
+  
+  .gap {
+    height: 10px;
+  
+    &.x2 {
+      height: 20px;
+    }
+  }
+  
+  .wrap {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .pos-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hgap {
+    display: inline-block;
+    width: 10px;
+    height: 1px;
+    &.x2 {
+      width: 20px;
+    }
+  }
+  
+  .flex {
+    display: flex;
+    &.jcsb {
+      justify-content: space-between;
+    }
+    &.ci {
+      align-items: center;
+    }
+  }
